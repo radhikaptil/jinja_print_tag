@@ -7,12 +7,22 @@
 </head>
 <body>
     <center>
-        <h1>if-else condition</h1>
+        <!--<h1>if-else condition</h1>
         {% if a > b %}
         <h1>a value is {{a}} </h1>
         {% else %}
         <h1> b value is {{b}} </h1>
+        {% endif %}-->
+
+    <h1>if_elif condition</h1>
+        {% if a > b and a > c %}
+        <h1>a ix max: {{a}} </h1>
+        {% elif b > c %}
+        <h1>b is max: {{b}} </h1>
+        {% else %}
+        <h1>C is max: {{c}} </h1>
         {% endif %}
+
 
     </center>
 
